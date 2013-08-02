@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E4FEB817ABC41C0049DB7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E4FEB717ABC41C0049DB7F /* Foundation.framework */; };
+		27E4FEC317ABC41C0049DB7F /* StackMenu.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27E4FEC217ABC41C0049DB7F /* StackMenu.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27E4FEB417ABC41C0049DB7F /* StackMenu.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = StackMenu.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E4FEB717ABC41C0049DB7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27E4FEBC17ABC41C0049DB7F /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		27E4FEBD17ABC41C0049DB7F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		27E4FEBF17ABC41C0049DB7F /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		27E4FEC017ABC41C0049DB7F /* StackMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackMenu-Prefix.pch"; sourceTree = "<group>"; };
+		27E4FEC117ABC41C0049DB7F /* StackMenu.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = StackMenu.xm; sourceTree = "<group>"; };
+		27E4FEC217ABC41C0049DB7F /* StackMenu.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = StackMenu.mm; sourceTree = "<group>"; };
+		27E4FEC717ABC41C0049DB7F /* StackMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = StackMenu.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/StackMenu.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E4FEB017ABC41C0049DB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E4FEB817ABC41C0049DB7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E4FEA917ABC41B0049DB7F = {
+			isa = PBXGroup;
+			children = (
+				27E4FEB917ABC41C0049DB7F /* StackMenu */,
+				27E4FEB617ABC41C0049DB7F /* Frameworks */,
+				27E4FEB517ABC41C0049DB7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E4FEB517ABC41C0049DB7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEB417ABC41C0049DB7F /* StackMenu.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E4FEB617ABC41C0049DB7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEB717ABC41C0049DB7F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27E4FEB917ABC41C0049DB7F /* StackMenu */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEC117ABC41C0049DB7F /* StackMenu.xm */,
+				27E4FEC217ABC41C0049DB7F /* StackMenu.mm */,
+				27E4FEBA17ABC41C0049DB7F /* Package */,
+				27E4FEBE17ABC41C0049DB7F /* Supporting Files */,
+			);
+			path = StackMenu;
+			sourceTree = "<group>";
+		};
+		27E4FEBA17ABC41C0049DB7F /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEBB17ABC41C0049DB7F /* DEBIAN */,
+				27E4FEC417ABC41C0049DB7F /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		27E4FEBB17ABC41C0049DB7F /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEBC17ABC41C0049DB7F /* control.txt */,
+				27E4FEBD17ABC41C0049DB7F /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		27E4FEBE17ABC41C0049DB7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEBF17ABC41C0049DB7F /* PackageVersion.plist */,
+				27E4FEC017ABC41C0049DB7F /* StackMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27E4FEC417ABC41C0049DB7F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEC517ABC41C0049DB7F /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		27E4FEC517ABC41C0049DB7F /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEC617ABC41C0049DB7F /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		27E4FEC617ABC41C0049DB7F /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				27E4FEC717ABC41C0049DB7F /* StackMenu.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27E4FEB117ABC41C0049DB7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27E4FEB317ABC41C0049DB7F /* StackMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E4FECA17ABC41C0049DB7F /* Build configuration list for PBXNativeTarget "StackMenu" */;
+			buildPhases = (
+				27E4FEAE17ABC41C0049DB7F /* ShellScript */,
+				27E4FEAF17ABC41C0049DB7F /* Sources */,
+				27E4FEB017ABC41C0049DB7F /* Frameworks */,
+				27E4FEB117ABC41C0049DB7F /* Headers */,
+				27E4FEB217ABC41C0049DB7F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackMenu;
+			productName = StackMenu;
+			productReference = 27E4FEB417ABC41C0049DB7F /* StackMenu.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E4FEAA17ABC41B0049DB7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 27E4FEAD17ABC41B0049DB7F /* Build configuration list for PBXProject "StackMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27E4FEA917ABC41B0049DB7F;
+			productRefGroup = 27E4FEB517ABC41C0049DB7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E4FEB317ABC41C0049DB7F /* StackMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E4FEAE17ABC41C0049DB7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		27E4FEB217ABC41C0049DB7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E4FEAF17ABC41C0049DB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E4FEC317ABC41C0049DB7F /* StackMenu.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27E4FEC817ABC41C0049DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		27E4FEC917ABC41C0049DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		27E4FECB17ABC41C0049DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackMenu/StackMenu-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		27E4FECC17ABC41C0049DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackMenu/StackMenu-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E4FEAD17ABC41B0049DB7F /* Build configuration list for PBXProject "StackMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E4FEC817ABC41C0049DB7F /* Debug */,
+				27E4FEC917ABC41C0049DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E4FECA17ABC41C0049DB7F /* Build configuration list for PBXNativeTarget "StackMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E4FECB17ABC41C0049DB7F /* Debug */,
+				27E4FECC17ABC41C0049DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E4FEAA17ABC41B0049DB7F /* Project object */;
+}
