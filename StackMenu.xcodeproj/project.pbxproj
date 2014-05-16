@@ -7,20 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27983F6C17AC147300F8817E /* PCStackMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 27983F6217AC147300F8817E /* PCStackMenu.h */; };
+		27983F6D17AC147300F8817E /* PCStackMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983F6317AC147300F8817E /* PCStackMenu.m */; };
+		27983F6E17AC147300F8817E /* PCStackMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 27983F6417AC147300F8817E /* PCStackMenuItem.h */; };
+		27983F6F17AC147300F8817E /* PCStackMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983F6517AC147300F8817E /* PCStackMenuItem.m */; };
+		27B6F73A17AE46B400973548 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B6F73917AE46B400973548 /* QuartzCore.framework */; };
+		27B6F73C17AE5BD800973548 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B6F73B17AE5BD800973548 /* Social.framework */; };
+		27B6F73E17AE5FE000973548 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B6F73D17AE5FE000973548 /* Accounts.framework */; };
 		27E4FEB817ABC41C0049DB7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E4FEB717ABC41C0049DB7F /* Foundation.framework */; };
 		27E4FEC317ABC41C0049DB7F /* StackMenu.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27E4FEC217ABC41C0049DB7F /* StackMenu.mm */; };
+		27E4FECE17ABC8140049DB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E4FECD17ABC8140049DB7F /* UIKit.framework */; };
+		27E4FED017ABC8C70049DB7F /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E4FECF17ABC8C70049DB7F /* libsubstrate.dylib */; };
+		27E4FED217ABCD7A0049DB7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E4FED117ABCD7A0049DB7F /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27983F6217AC147300F8817E /* PCStackMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStackMenu.h; sourceTree = "<group>"; };
+		27983F6317AC147300F8817E /* PCStackMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStackMenu.m; sourceTree = "<group>"; };
+		27983F6417AC147300F8817E /* PCStackMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStackMenuItem.h; sourceTree = "<group>"; };
+		27983F6517AC147300F8817E /* PCStackMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStackMenuItem.m; sourceTree = "<group>"; };
+		27983F6717AC147300F8817E /* actions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actions@2x.png"; sourceTree = "<group>"; };
+		27983F6817AC147300F8817E /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		27983F6917AC147300F8817E /* magnifier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifier@2x.png"; sourceTree = "<group>"; };
+		27983F6A17AC147300F8817E /* speech@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech@2x.png"; sourceTree = "<group>"; };
+		27983F6B17AC147300F8817E /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		27B6F73917AE46B400973548 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27B6F73B17AE5BD800973548 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		27B6F73D17AE5FE000973548 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		27E4FEB417ABC41C0049DB7F /* StackMenu.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = StackMenu.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E4FEB717ABC41C0049DB7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27E4FEBC17ABC41C0049DB7F /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		27E4FEBD17ABC41C0049DB7F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		27E4FEBF17ABC41C0049DB7F /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		27E4FEC017ABC41C0049DB7F /* StackMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackMenu-Prefix.pch"; sourceTree = "<group>"; };
-		27E4FEC117ABC41C0049DB7F /* StackMenu.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = StackMenu.xm; sourceTree = "<group>"; };
+		27E4FEC117ABC41C0049DB7F /* StackMenu.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = StackMenu.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		27E4FEC217ABC41C0049DB7F /* StackMenu.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = StackMenu.mm; sourceTree = "<group>"; };
 		27E4FEC717ABC41C0049DB7F /* StackMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = StackMenu.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/StackMenu.plist; sourceTree = "<group>"; };
+		27E4FECD17ABC8140049DB7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27E4FECF17ABC8C70049DB7F /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		27E4FED117ABCD7A0049DB7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +53,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B6F73E17AE5FE000973548 /* Accounts.framework in Frameworks */,
+				27B6F73C17AE5BD800973548 /* Social.framework in Frameworks */,
+				27B6F73A17AE46B400973548 /* QuartzCore.framework in Frameworks */,
+				27E4FED217ABCD7A0049DB7F /* CoreGraphics.framework in Frameworks */,
+				27E4FED017ABC8C70049DB7F /* libsubstrate.dylib in Frameworks */,
+				27E4FECE17ABC8140049DB7F /* UIKit.framework in Frameworks */,
 				27E4FEB817ABC41C0049DB7F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,9 +66,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27983F6617AC147300F8817E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27983F6717AC147300F8817E /* actions@2x.png */,
+				27983F6817AC147300F8817E /* gear@2x.png */,
+				27983F6917AC147300F8817E /* magnifier@2x.png */,
+				27983F6A17AC147300F8817E /* speech@2x.png */,
+				27983F6B17AC147300F8817E /* twitter@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		27E4FEA917ABC41B0049DB7F = {
 			isa = PBXGroup;
 			children = (
+				27B6F73D17AE5FE000973548 /* Accounts.framework */,
+				27B6F73B17AE5BD800973548 /* Social.framework */,
+				27B6F73917AE46B400973548 /* QuartzCore.framework */,
+				27983F6217AC147300F8817E /* PCStackMenu.h */,
+				27983F6317AC147300F8817E /* PCStackMenu.m */,
+				27983F6417AC147300F8817E /* PCStackMenuItem.h */,
+				27983F6517AC147300F8817E /* PCStackMenuItem.m */,
+				27983F6617AC147300F8817E /* images */,
+				27E4FED117ABCD7A0049DB7F /* CoreGraphics.framework */,
+				27E4FECF17ABC8C70049DB7F /* libsubstrate.dylib */,
+				27E4FECD17ABC8140049DB7F /* UIKit.framework */,
 				27E4FEB917ABC41C0049DB7F /* StackMenu */,
 				27E4FEB617ABC41C0049DB7F /* Frameworks */,
 				27E4FEB517ABC41C0049DB7F /* Products */,
@@ -129,6 +183,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27983F6C17AC147300F8817E /* PCStackMenu.h in Headers */,
+				27983F6E17AC147300F8817E /* PCStackMenuItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E4FEC317ABC41C0049DB7F /* StackMenu.mm in Sources */,
+				27983F6D17AC147300F8817E /* PCStackMenu.m in Sources */,
+				27983F6F17AC147300F8817E /* PCStackMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,10 +343,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackMenu/StackMenu-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
+				iOSOpenDevDevice = 192.168.0.102;
 				iOSOpenDevInstallOnAnyBuild = NO;
 				iOSOpenDevInstallOnProfiling = YES;
 				iOSOpenDevRespringOnInstall = YES;
@@ -305,10 +367,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StackMenu/StackMenu-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
+				iOSOpenDevDevice = 192.168.0.102;
 				iOSOpenDevInstallOnAnyBuild = NO;
 				iOSOpenDevInstallOnProfiling = YES;
 				iOSOpenDevRespringOnInstall = YES;
@@ -335,6 +401,7 @@
 				27E4FECC17ABC41C0049DB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
